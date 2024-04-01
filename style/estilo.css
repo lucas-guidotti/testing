@@ -35,14 +35,23 @@ body {
 
 button {
     border-radius: 5px;
-    border: 1px;
+    border:solid 1px;
+    cursor: pointer;
+    background: linear-gradient(45deg, #c03fe7, #ffffff75, #1b45b8);
 }
 
+
 button:hover {
-    background-color: blueviolet;
+    background: linear-gradient(45deg, #1b45b8, #ffffff75, #c03fe7);
 }
 
 select {
+    border: solid 1px;
     border-radius: 5px;
     align-items: center;
+    background: linear-gradient(45deg, #1b45b8, #ffffff75, #c03fe7);
+}
+
+option {
+    background-color: #b349d3;
 }
