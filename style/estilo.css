@@ -38,6 +38,7 @@ button {
     border:solid 1px;
     cursor: pointer;
     background: linear-gradient(45deg, #c03fe7, #ffffff75, #1b45b8);
+    color: black;
 }
 
 
@@ -46,10 +47,11 @@ button:hover {
 }
 
 select {
+    color: black;
     border: solid 1px;
     border-radius: 5px;
     align-items: center;
-    background: linear-gradient(45deg, #1b45b8, #ffffff75, #c03fe7);
+    background: linear-gradient(45deg, #1b45b8a1, #ffffff75, #c03fe7);
 }
 
 option {
